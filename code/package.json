@@ -12,8 +12,6 @@
     "test:watch": "npm run test -- --watch",
     "prebuild": "npm-run-all clean-dist test lint",
     "build": "babel-node buildScripts/build.js"
-
-
   },
   "author": "Cory House",
   "license": "MIT",
@@ -55,5 +53,6 @@
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
     "webpack-md5-hash": "0.0.5"
-  }
+  },
+  "main": "webpack.config.dev.js"
 }
